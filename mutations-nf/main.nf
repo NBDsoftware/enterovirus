@@ -15,7 +15,7 @@ Channel
         row.prot,
         file(row.VP1consensus),
         file(row.EVreference),
-        row.genotype)
+        row.genotypes)
     }
     .set { inputs }
 
